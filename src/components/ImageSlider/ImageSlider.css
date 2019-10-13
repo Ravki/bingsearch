@@ -18,37 +18,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-.slide .block {
-  width: 25%;
-  height: 100%;
-  border: 1px solid black;
-  display: flex;
-  box-sizing: border-box;
-}
-.slide .block .nestedsubBlock {
-  width: 50%;
-  height: 100%;
-}
-.slide .block .nestedsubBlock .subBlock {
-  margin: 5px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.slide .block .nestedsubBlock .subBlock:hover {
-  transform: scale(1.2);
-}
-.slide .block .nestedsubBlock .subBlock .image {
-  height: 75%;
-  width: 75%;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-}
-.slide .block .nestedsubBlock .subBlock .details {
-  height: 25%;
-  width: 100%;
-}
 input[type="radio"] {
   position: absolute;
   opacity: 0;
@@ -87,10 +56,6 @@ input[type="radio"]#right {
   background: url("../../assets/images/right-arrow-hover.svg");
 }
 
-/* #left:checked ~ .s1 {
-  margin-left: 0%;
-} */
-
 #right:checked ~ .s1 {
   transform: translateX(-100%);
 }
@@ -111,33 +76,6 @@ input[type="radio"]#right {
 #right:checked ~ .leftArrow {
   opacity: 1;
 }
-
-/* Image Carousel division template */
-/* .block.b0 .sb0 {
-  height: 40%;
-}
-.block.b0 .sb1 {
-  height: 56%;
-}
-.block.b0 .sb2 {
-  height: 60%;
-}
-.block.b0 .sb3 {
-  height: 36%;
-}
-
-.block.b1 .sb0 {
-  height: 32%;
-}
-.block.b1 .sb1 {
-  height: 64%;
-}
-.block.b1 .sb2 {
-  height: 48%;
-}
-.block.b1 .sb3 {
-  height: 48%;
-} */
 
 .grid-item {
   background: #fff;
@@ -186,7 +124,12 @@ input[type="radio"]#right {
   font-size: 14px;
   font-weight: 300;
   text-transform: capitalize;
-  margin-right: 20%;
+}
+.grid-item .details .open-link {
+  width: 20px;
+  background: url("../../assets/images/christmas/men/open-link.png");
+  margin-right: 10%;
+  background-size: cover !important;
 }
 .grid-item .details .source a {
   text-decoration: none;

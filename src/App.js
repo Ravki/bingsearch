@@ -7,11 +7,10 @@ import Footer from "./components/Footer/footer";
 
 class App extends Component {
   state = {
-    searchString: ""
+    searchString: null
   };
   handleSearch = (value) => {
-    console.log("Handling search", value);
-    this.setState({ searchString: value });
+    this.setState({ searchString: value.toLowerCase() });
   };
   render() {
     return (
@@ -26,10 +25,10 @@ class App extends Component {
             <SearchResults search={this.state.searchString} />
             <Footer />
           </>
-        ) : (
+        ) : this.state.searchString === null ? null : (
           <div className="error-msg">
             Results are configured only for search string "christmas gifts" and
-            "birthday gifts in this assignment.Please try with these two words
+            "birthday gifts" in this assignment.Please try with these two words
             only.{" "}
           </div>
         )}

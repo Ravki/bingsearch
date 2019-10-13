@@ -18,13 +18,6 @@ class Header extends Component {
       this.populateSuggestions()
     );
   };
-  debounce = () => {
-    let timer;
-    return () => {
-      clearTimeout(timer);
-      timer = setTimeout(this.populateSuggestions, 1000);
-    };
-  };
   populateSuggestions = () => {
     let search = this.state.searchString.toLowerCase();
     let relevant;
@@ -33,7 +26,9 @@ class Header extends Component {
         return item.includes(search);
       });
     }
-    this.setState({ showSuggestions: true, suggestions: relevant });
+    if (relevant && relevant.length) {
+      this.setState({ showSuggestions: true, suggestions: relevant });
+    }
   };
   onSuggestionClicked = (e) => {
     e.preventDefault();
@@ -144,8 +139,11 @@ class Header extends Component {
             </div>
           </div>
         </div>
-
-        <div className="header-row">
+        <div
+          className={
+            "header-row " + (this.state.searchString ? "show" : "hide")
+          }
+        >
           <div className="header-column">
             <nav
               className="nav-bar"

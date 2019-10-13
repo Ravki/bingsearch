@@ -6,15 +6,11 @@ class ImageSlider extends Component {
     searchImages: null
   };
   componentWillMount = () => {
-    // debugger;
-    // let searchImages =
-    //   data["searchResults"][this.props.search].imageResults.images;
     this.setState({ searchImages: this.props.images });
-    //this.setState({ searchImages: this.props.images });
   };
   componentWillReceiveProps = (nextProps) => {
-    console.log("New props rece", nextProps.images);
     this.setState({ searchImages: nextProps.images });
+    this.inputElement.click();
   };
   getBackImg = (imgUrl) => {
     return { backgroundImage: "url(" + imgUrl + ")" };
@@ -23,7 +19,12 @@ class ImageSlider extends Component {
     return (
       <div className="slider">
         <div className="slideContainer">
-          <input type="radio" name="select" id="left"></input>
+          <input
+            type="radio"
+            name="select"
+            id="left"
+            ref={(input) => (this.inputElement = input)}
+          ></input>
           <input type="radio" name="select" id="right"></input>
 
           <div className="slide s1">
@@ -44,6 +45,7 @@ class ImageSlider extends Component {
                             {item.source}
                           </a>
                         </div>
+                        <div className="open-link"></div>
                         <div className={"rating " + item.rating}></div>
                       </div>
                     </div>
@@ -69,6 +71,7 @@ class ImageSlider extends Component {
                             {item.source}
                           </a>
                         </div>
+                        <div className="open-link"></div>
                         <div className={"rating " + item.rating}></div>
                       </div>
                     </div>
