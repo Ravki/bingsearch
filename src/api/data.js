@@ -185,7 +185,7 @@ export default {
             source: "amazon",
             rating: "five",
             category: ["homedecor"],
-            giftFor: ["men", "women", "friends"],
+            giftFor: ["men", "women", "friends", "kids"],
             produrl: "https://www.amazon.in"
           },
           {
@@ -212,7 +212,7 @@ export default {
             source: "amazon",
             rating: "three",
             category: ["trending", "homedecor"],
-            giftFor: ["men", "friends"],
+            giftFor: ["men", "friends", "kids"],
             produrl: "https://www.amazon.in"
           },
           {
@@ -221,7 +221,7 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.flipkart.com"
           },
           {
@@ -239,7 +239,7 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["lifestyle"],
-            giftFor: ["elders", "friends"],
+            giftFor: ["elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -248,7 +248,7 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["elders", "friends"],
+            giftFor: ["elders", "friends", "kids"],
             produrl: "https://www.amazon.in"
           },
           {
@@ -266,7 +266,7 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: [, "women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.amazon.in"
           },
           {
@@ -280,7 +280,7 @@ export default {
           },
           {
             url: require("../assets/images/christmas/men/galaxynote.jpeg"),
-            price: 700,
+            price: 1200,
             source: "amazon",
             rating: "four",
             category: ["trending", "electronics"],
@@ -289,7 +289,7 @@ export default {
           },
           {
             url: require("../assets/images/christmas/men/galaxys10.jpeg"),
-            price: 650,
+            price: 1050,
             source: "flipkart",
             rating: "four",
             category: ["trending", "electronics"],
@@ -311,7 +311,7 @@ export default {
             source: "snapdeal",
             rating: "two",
             category: ["trending"],
-            giftFor: ["women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -320,7 +320,7 @@ export default {
             source: "flipkart",
             rating: "three",
             category: ["trending"],
-            giftFor: ["women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.flipkart.com"
           },
           {
@@ -329,7 +329,7 @@ export default {
             source: "flipkart",
             rating: "five",
             category: ["trending", "electronics"],
-            giftFor: ["men", "women", "friends"],
+            giftFor: ["men", "women", "friends", "kids"],
             produrl: "https://www.flipkart.com"
           },
 
@@ -339,7 +339,7 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -366,7 +366,7 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "electronics"],
-            giftFor: ["women", "friends"],
+            giftFor: ["women", "friends", "kids"],
             produrl: "https://www.flipkart.com"
           },
           {
@@ -384,7 +384,7 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "electronics"],
-            giftFor: ["men", "women", "friends"],
+            giftFor: ["men", "women", "friends", "kids"],
             produrl: "https://www.amazon.in"
           },
           {
@@ -420,7 +420,7 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders", "friends"],
+            giftFor: ["men", "elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -456,7 +456,7 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders"],
+            giftFor: ["men", "elders", "kids"],
             produrl: "https://www.flipkart.com"
           },
           {
@@ -465,7 +465,7 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders", "friends"],
+            giftFor: ["men", "elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -546,7 +546,7 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending"],
-            giftFor: ["men", "elders", "friends"],
+            giftFor: ["men", "elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -555,7 +555,7 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "elders", "friends"],
+            giftFor: ["women", "elders", "friends", "kids"],
             produrl: "https://www.flipkart.com"
           },
           {
@@ -654,8 +654,188 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/socksmen.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
             produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/spiderman.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "two",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "kids", "appliances"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/sportscycle.jpeg"),
+            price: 520,
+            source: "amazon",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/sportshoes.jpeg"),
+            price: 220,
+            source: "snapdeal",
+            rating: "four",
+            category: ["trending", "appliances"],
+            giftFor: ["men", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/stopclock.jpeg"),
+            price: 60,
+            source: "flipkart",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/sunshades.jpeg"),
+            price: 20,
+            source: "amazon",
+            rating: "four",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "kids", "men"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/teeshirt.jpeg"),
+            price: 2,
+            source: "snapdeal",
+            rating: "five",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["kids", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/thorjunior.jpeg"),
+            price: 2,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["kids", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/trimmer.jpeg"),
+            price: 120,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["men", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/viptrolley.jpeg"),
+            price: 620,
+            source: "flipkart",
+            rating: "four",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walker.jpeg"),
+            price: 240,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walkingshoesold.jpeg"),
+            price: 120,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walkingstick.jpeg"),
+            price: 220,
+            source: "flipkart",
+            rating: "four",
+            category: ["trending", "appliances"],
+            giftFor: ["women", "elders", "men", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/wallet.jpeg"),
+            price: 20,
+            source: "amazon",
+            rating: "three",
+            category: ["trending", "appliances"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/watch.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchkids.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchkidsboys.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "kids", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchset.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "five",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/womenblazer.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/womengrooming.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.flipkart.com"
           }
         ],
         searchFilter: [
@@ -742,7 +922,7 @@ export default {
               {
                 type: "price",
                 label: "$1000+",
-                value: 10001
+                value: 1001
               }
             ]
           }
@@ -1004,7 +1184,7 @@ export default {
           },
           {
             url: require("../assets/images/christmas/men/galaxynote.jpeg"),
-            price: 700,
+            price: 1200,
             source: "amazon",
             rating: "four",
             category: ["trending", "electronics"],
@@ -1013,7 +1193,7 @@ export default {
           },
           {
             url: require("../assets/images/christmas/men/galaxys10.jpeg"),
-            price: 650,
+            price: 1050,
             source: "flipkart",
             rating: "four",
             category: ["trending", "electronics"],
@@ -1380,6 +1560,177 @@ export default {
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
             produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/spiderman.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "two",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "kids", "appliances"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/sportscycle.jpeg"),
+            price: 520,
+            source: "amazon",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/sportshoes.jpeg"),
+            price: 220,
+            source: "snapdeal",
+            rating: "four",
+            category: ["trending", "appliances"],
+            giftFor: ["men", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/stopclock.jpeg"),
+            price: 60,
+            source: "flipkart",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/sunshades.jpeg"),
+            price: 20,
+            source: "amazon",
+            rating: "four",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "kids", "men"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/teeshirt.jpeg"),
+            price: 2,
+            source: "snapdeal",
+            rating: "five",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["kids", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/thorjunior.jpeg"),
+            price: 2,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["kids", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/trimmer.jpeg"),
+            price: 120,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["men", "elders"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/viptrolley.jpeg"),
+            price: 620,
+            source: "flipkart",
+            rating: "four",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walker.jpeg"),
+            price: 240,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walkingshoesold.jpeg"),
+            price: 120,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/walkingstick.jpeg"),
+            price: 220,
+            source: "flipkart",
+            rating: "four",
+            category: ["trending", "appliances"],
+            giftFor: ["women", "elders", "men", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/wallet.jpeg"),
+            price: 20,
+            source: "amazon",
+            rating: "three",
+            category: ["trending", "appliances"],
+            giftFor: ["women", "elders", "men"],
+            produrl: "https://www.amazon.in"
+          },
+          {
+            url: require("../assets/images/christmas/men/watch.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchkids.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchkidsboys.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "kids", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/watchset.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "five",
+            category: ["trending", "lifestyle", "appliances"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.flipkart.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/womenblazer.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.snapdeal.com"
+          },
+          {
+            url: require("../assets/images/christmas/men/womengrooming.jpeg"),
+            price: 20,
+            source: "flipkart",
+            rating: "three",
+            category: ["appliances", "lifestyle"],
+            giftFor: ["women", "elders", "friends"],
+            produrl: "https://www.flipkart.com"
           }
         ],
         searchFilter: [
@@ -1466,7 +1817,7 @@ export default {
               {
                 type: "price",
                 label: "$1000+",
-                value: 10001
+                value: 1001
               }
             ]
           }

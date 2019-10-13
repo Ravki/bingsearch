@@ -63,8 +63,12 @@ class ImageSearch extends Component {
     let filteredImages = imageResults.filter((item, index) => {
       return (
         item.category.includes(this.state.category) &&
-        item.giftFor.includes(this.state.gender) &&
-        item.price < this.state.price
+        (this.state.gender === "all"
+          ? true
+          : item.giftFor.includes(this.state.gender)) &&
+        (this.state.price === 1001
+          ? item.price > this.state.price
+          : item.price < this.state.price)
       );
     });
 
@@ -73,10 +77,18 @@ class ImageSearch extends Component {
   isRadioSelected = (group, value) => {
     return this.state[group] === value ? "selected" : "";
   };
-
+  formImageUrl = (string) => {
+    let query = string.replace(" ", "+");
+    return `https://www.bing.com/images/search?q=${query}`;
+  };
   render() {
     return (
       <div className="imageSearch">
+        <div className="heading">
+          <a href={this.formImageUrl(this.props.search)} target="_blank">
+            Images of {this.props.search}
+          </a>
+        </div>
         <div className="imageSearchHeader">
           {this.state.searchFilters
             ? this.state.searchFilters.map((item, index) => (

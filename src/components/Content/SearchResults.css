@@ -29,6 +29,10 @@
   text-align: left;
   padding: 0;
 }
+.relatedSearch .suggestions-list > li {
+  line-height: 30px;
+  word-spacing: -1px;
+}
 .relatedSearch .suggestions-list:nth-child(2) {
   margin-left: 50px;
 }
@@ -41,6 +45,13 @@
 .relatedSearch .suggestions-container .suggestion:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+.results .metrics {
+  color: #70757a;
+  font-weight: 500;
+  text-align: left;
+  font-size: 14px;
+  padding-top: 10px;
 }
 .results .pagination {
   position: relative;

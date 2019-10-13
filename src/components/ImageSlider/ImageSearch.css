@@ -2,7 +2,20 @@
   background: #eee;
   padding: 150px 0 30px 70px;
 }
-
+.imageSearch .heading {
+  color: #003dbf;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 25px;
+  opacity: 0.9;
+}
+.imageSearch .heading a {
+  text-decoration: none;
+}
+.imageSearch .heading a:hover {
+  text-decoration: underline;
+}
 .imageSearchHeader {
   display: flex;
   height: 100px;

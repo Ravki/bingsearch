@@ -30,7 +30,7 @@ class SearchResults extends Component {
       <div className="container">
         <div className="results">
           <main className="searchResults">
-            <div className="metrics"></div>
+            <div className="metrics">Showing 1000 results in 1.2 seconds</div>
             <ResultBlock results={this.state.results}></ResultBlock>
             <div className="pagination">
               <nav
