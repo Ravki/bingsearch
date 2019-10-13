@@ -1,0 +1,50 @@
+.imageSearch {
+  background: #eee;
+  padding: 150px 0 30px 70px;
+}
+
+.imageSearchHeader {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.imageSearchHeader .type {
+  padding: 20px;
+}
+.imageSearchHeader label:hover {
+  cursor: pointer;
+}
+.imageSearchHeader .type .title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  color: #00809d;
+}
+.imageSearchHeader .filters {
+  display: flex;
+  height: 40px;
+  padding-top: 5px;
+}
+.imageSearchHeader .filter {
+  padding: 10px 15px;
+  border: 1px solid #00809d;
+  border-left: 0;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  color: #00809d;
+}
+.imageSearchHeader .filter.selected {
+  background: #00809d;
+  color: #fff;
+}
+.imageSearchHeader .filters > .filter:first-child {
+  border-left: 1px solid #00809d;
+}
+/* .imageSearchHeader .filters > .filter:last-child {
+  border-left: 0;
+} */

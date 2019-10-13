@@ -20,3 +20,9 @@
 .App-link {
   color: #09d3ac;
 }
+.error-msg {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  color: red;
+}

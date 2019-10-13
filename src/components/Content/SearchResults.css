@@ -1,0 +1,87 @@
+.container {
+  padding-left: 95px;
+}
+
+.searchResults,
+.relatedSearch {
+  width: 40%;
+}
+.results {
+  display: flex;
+}
+.relatedSearch {
+  padding-left: 100px;
+}
+.relatedSearch .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.relatedSearch .suggestions-container {
+  display: flex;
+}
+.relatedSearch .suggestions-list {
+  line-height: 25px;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.relatedSearch .suggestions-list:nth-child(2) {
+  margin-left: 50px;
+}
+.relatedSearch .suggestions-container .suggestion {
+  font-size: 14px;
+  color: #003dbf;
+  font-weight: 500;
+  text-decoration: none;
+}
+.relatedSearch .suggestions-container .suggestion:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.results .pagination {
+  position: relative;
+}
+.results .pagination .nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  color: #444;
+}
+.results .pagination .nav-bar ul li {
+  padding: 10px 15px;
+  margin: 0 -35px;
+}
+.results .pagination .nav-bar ul li:first-child:before {
+  content: "<";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 75px;
+  bottom: 17px;
+  font-size: 30px;
+  color: #b7b7b7;
+}
+.results .pagination .nav-bar ul li:last-child:before {
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 17px;
+  right: 20px;
+  font-size: 30px;
+  color: #b7b7b7;
+}
+.results .pagination .nav-bar ul li a {
+  color: #444;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.results .pagination .nav-bar ul li.selected {
+  border-bottom: 3px solid #00809d;
+}

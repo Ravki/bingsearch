@@ -1,0 +1,40 @@
+.footer {
+  color: #666;
+  background-color: #ececec;
+  width: 100%;
+}
+.footer .footer-row {
+  padding: 5px 0;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.footer .nav-bar {
+  width: 100%;
+}
+.footer .nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  color: #444;
+}
+.footer .nav-bar ul li {
+  padding: 10px 0px;
+  margin: 0 -80px;
+}
+
+.footer .nav-bar ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer .nav-bar ul li a:hover {
+  text-decoration: underline;
+}
+.footer .footer-row .copyright {
+  width: 100%;
+  text-align: right;
+  padding-right: 50px;
+  font-size: 14px;
+}

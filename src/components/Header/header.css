@@ -1,0 +1,131 @@
+.header {
+  padding: 24px 0 0 0;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+.header .header-row {
+  display: flex;
+}
+.header .header-column {
+  display: flex;
+  width: 50%;
+}
+.header .header-column.profile-bar {
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 75px;
+}
+.header .profile-bar .logo {
+  margin: 0 50px 0 5px;
+}
+.header .profile-bar > div {
+  display: flex;
+  align-items: center;
+}
+.header .profile-bar > div > a {
+  text-decoration: none;
+  color: #444;
+}
+.header .profile-bar .logo {
+  width: 30px;
+  height: 30px;
+  background-size: cover !important;
+  cursor: pointer;
+}
+.header .profile-bar .id .logo {
+  background: url("../../assets/images/christmas/men/avatar.png");
+}
+.header .profile-bar .rewards .logo {
+  background: url("../../assets/images/christmas/men/reward-badge.png");
+}
+.header .profile-bar .menu .logo {
+  background: url("../../assets/images/christmas/men/hamburger-icon.png");
+}
+.header .header-column .nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  color: #444;
+}
+.header .header-column .nav-bar ul li {
+  padding: 10px 20px;
+}
+.header .header-column .nav-bar ul li a {
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.header .header-column .nav-bar ul li:hover {
+  border-bottom: 3px solid #ccc;
+}
+.header .header-column .nav-bar ul li.selected {
+  border-bottom: 3px solid #00809d;
+}
+.header .action {
+  display: flex;
+}
+.header .search {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  width: 650px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+.header .searchBox {
+  text-overflow: ellipsis;
+  height: 95%;
+  width: 90%;
+  color: #000;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header .searchIcon {
+  background: url(../../assets/images/bing-search1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  border: none;
+  width: 6%;
+  transform: scale(0.5);
+  text-indent: -1000px;
+}
+.suggestionWindow {
+  min-height: 250px;
+  position: absolute;
+  top: 42px;
+  width: 650px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-top: none;
+  text-align: left;
+  cursor: pointer;
+  background-color: #fff;
+  left: -1px;
+}
+.suggestionWindow .suggestionList {
+  list-style: none;
+  padding-left: 3px;
+}
+.suggestionWindow .suggestion {
+  padding: 5px 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header .logo {
+  margin: 0 14px 0 55px;
+}
+.header .search-bar .logo a {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background: url(../../assets/images/bing-icon.png);
+  background-size: cover;
+}

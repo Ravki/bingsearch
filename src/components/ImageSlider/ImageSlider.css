@@ -1,0 +1,229 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.slideContainer {
+  width: 200%;
+  height: 100%;
+  display: flex;
+}
+.slide {
+  position: relative;
+  padding: 0 25px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.25s;
+  display: flex;
+  flex-wrap: wrap;
+}
+.slide .block {
+  width: 25%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  box-sizing: border-box;
+}
+.slide .block .nestedsubBlock {
+  width: 50%;
+  height: 100%;
+}
+.slide .block .nestedsubBlock .subBlock {
+  margin: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide .block .nestedsubBlock .subBlock:hover {
+  transform: scale(1.2);
+}
+.slide .block .nestedsubBlock .subBlock .image {
+  height: 75%;
+  width: 75%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+.slide .block .nestedsubBlock .subBlock .details {
+  height: 25%;
+  width: 100%;
+}
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+input[type="radio"]#left {
+  left: 0;
+}
+input[type="radio"]#right {
+  right: 0;
+}
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 99;
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(41, 41, 34, 0.28);
+}
+.leftArrow {
+  opacity: 0;
+  left: 1%;
+  background: url("../../assets/images/left-arrow.svg");
+}
+.leftarrow:hover {
+  background: url("../../assets/images/left-arrow-hover.svg");
+}
+.rightArrow {
+  right: 1%;
+  background: url("../../assets/images/right-arrow.svg");
+}
+.rightarrow:hover {
+  background: url("../../assets/images/right-arrow-hover.svg");
+}
+
+/* #left:checked ~ .s1 {
+  margin-left: 0%;
+} */
+
+#right:checked ~ .s1 {
+  transform: translateX(-100%);
+}
+#right:checked ~ .s2 {
+  transform: translateX(-100%);
+}
+
+/* Image Carousel Arrow Handles */
+#left:checked ~ .rightArrow {
+  opacity: 1;
+}
+#left:checked ~ .leftArrow {
+  opacity: 0;
+}
+#right:checked ~ .rightArrow {
+  opacity: 0;
+}
+#right:checked ~ .leftArrow {
+  opacity: 1;
+}
+
+/* Image Carousel division template */
+/* .block.b0 .sb0 {
+  height: 40%;
+}
+.block.b0 .sb1 {
+  height: 56%;
+}
+.block.b0 .sb2 {
+  height: 60%;
+}
+.block.b0 .sb3 {
+  height: 36%;
+}
+
+.block.b1 .sb0 {
+  height: 32%;
+}
+.block.b1 .sb1 {
+  height: 64%;
+}
+.block.b1 .sb2 {
+  height: 48%;
+}
+.block.b1 .sb3 {
+  height: 48%;
+} */
+
+.grid-item {
+  background: #fff;
+  width: 12.5%;
+  margin: 2px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.25s;
+  transition-delay: 0.1s;
+}
+.grid-item:hover {
+  transform: scale(1.25);
+  box-shadow: 0 4px 10px 0 rgba(41, 41, 34, 0.28);
+}
+.grid-item:nth-child(3n + 3) {
+  flex-grow: 2;
+}
+
+.grid-item .image {
+  height: 70%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  width: 70%;
+}
+
+.grid-item .details {
+  height: 30%;
+  width: 100%;
+  padding-left: 25px;
+}
+.grid-item .price > div {
+  display: flex;
+}
+.grid-item .details > div {
+  display: flex;
+  text-align: left;
+}
+.grid-item .details .price {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.grid-item .details .source {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-right: 20%;
+}
+.grid-item .details .source a {
+  text-decoration: none;
+  color: #000;
+}
+.grid-item .details .rating {
+  width: 85px;
+  height: 20px;
+  background: url("../../assets/images/christmas/men/star-rating.png");
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+.grid-item:hover .details .rating {
+  /* background: url("../../assets/images/christmas/men/star-rating.png"); */
+  opacity: 1;
+}
+.grid-item .details .rating.two {
+  background-position: 15px 127px;
+}
+.grid-item .details .rating.three {
+  background-position: 15px 90px;
+}
+.grid-item .details .rating.four {
+  background-position: 15px 52px;
+}
+.grid-item .details .rating.five {
+  background-position: 15px 19px;
+}
+.grid-item:hover .details .source a {
+  text-decoration: underline;
+  color: #600090;
+}
+.grid-item :before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}

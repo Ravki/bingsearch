@@ -1,0 +1,39 @@
+.searchResult {
+  text-align: left;
+}
+.resultList {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.resultList > li {
+  padding: 5px 0;
+}
+.resultList h2 {
+  margin: 0;
+}
+
+.resultList .title {
+  color: #003dbf;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+.resultList .title:hover {
+  text-decoration: underline;
+}
+.resultList .title:visited {
+  color: #600090;
+}
+
+.resultList .caption .urlDisplay {
+  color: #006d21;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+.resultList .caption .metadat {
+  margin-top: 5px;
+}
