@@ -122,7 +122,7 @@ export default {
             price: 50,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "kids", "friends"],
             produrl: "https://www.amazon.in",
             title: "Backpack bag"
@@ -242,7 +242,7 @@ export default {
             price: 13,
             source: "amazon",
             rating: "five",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["elders"],
             produrl: "https://www.amazon.in",
             title: "Coffee mug"
@@ -261,7 +261,7 @@ export default {
             price: 7,
             source: "amazon",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["elders", "friends", "kids"],
             produrl: "https://www.amazon.in",
             title: "T-shirt"
@@ -291,7 +291,7 @@ export default {
             price: 35,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Healthness Fitband"
@@ -321,7 +321,7 @@ export default {
             price: 100,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Samsung Gear smartwatch"
@@ -331,7 +331,7 @@ export default {
             price: 5,
             source: "snapdeal",
             rating: "two",
-            category: ["trending"],
+            category: ["trending", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "Mobile Case"
@@ -362,7 +362,7 @@ export default {
             price: 35,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "girl kids frock"
@@ -392,7 +392,7 @@ export default {
             price: 30,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.flipkart.com",
             title: "Hair dryer"
@@ -422,7 +422,7 @@ export default {
             price: 40,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "helmet"
@@ -452,7 +452,7 @@ export default {
             price: 75,
             source: "snapdeal",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "hoody"
@@ -492,7 +492,7 @@ export default {
             price: 35,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "kids"],
             produrl: "https://www.flipkart.com",
             title: "Tracking pants for men"
@@ -522,7 +522,7 @@ export default {
             price: 100,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.amazon.in",
             title: "long boots"
@@ -542,7 +542,7 @@ export default {
             price: 50,
             source: "flipkart",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Makeup box"
@@ -562,7 +562,7 @@ export default {
             price: 100,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "electronics", "lifestyle"],
+            category: ["trending", "electronics", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "Watch"
@@ -582,7 +582,7 @@ export default {
             price: 250,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.amazon.in",
             title: "Office bag"
@@ -593,7 +593,7 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending"],
-            giftFor: ["men", "elders", "friends", "kids"],
+            giftFor: ["men", "elders", "friends", "kids", "homedecor"],
             produrl: "https://www.snapdeal.com",
             title: "parker pen"
           },
@@ -622,7 +622,7 @@ export default {
             price: 150,
             source: "snapdeal",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "Power beats pro"
@@ -662,7 +662,7 @@ export default {
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders"],
             produrl: "https://www.flipkart.com",
             title: "rugsack bag"
@@ -692,7 +692,7 @@ export default {
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "appliances"],
+            category: ["trending", "appliances", "homedecor"],
             giftFor: ["kids"],
             produrl: "https://www.flipkart.com",
             title: "scooter"
@@ -712,7 +712,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "socks girls"
@@ -722,7 +722,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders"],
             produrl: "https://www.snapdeal.com",
             title: "socks men"
@@ -772,7 +772,7 @@ export default {
             price: 20,
             source: "amazon",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "kids", "men"],
             produrl: "https://www.amazon.in",
             title: "sun shades"
@@ -812,7 +812,7 @@ export default {
             price: 620,
             source: "flipkart",
             rating: "four",
-            category: ["appliances", "lifestyle"],
+            category: ["appliances", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "men"],
             produrl: "https://www.flipkart.com",
             title: "vip tolley suitcase"
@@ -852,7 +852,7 @@ export default {
             price: 20,
             source: "amazon",
             rating: "three",
-            category: ["trending", "appliances"],
+            category: ["trending", "appliances", "homedecor"],
             giftFor: ["women", "elders", "men"],
             produrl: "https://www.amazon.in",
             title: "wallet men"
@@ -872,7 +872,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle", "appliances"],
+            category: ["trending", "lifestyle", "appliances", "homedecor"],
             giftFor: ["women", "elders", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "watch for kids"
@@ -902,7 +902,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "womens blazer"
@@ -1106,7 +1106,7 @@ export default {
             price: 50,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "kids", "friends"],
             produrl: "https://www.amazon.in",
             title: "Backpack bag"
@@ -1226,7 +1226,7 @@ export default {
             price: 13,
             source: "amazon",
             rating: "five",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["elders"],
             produrl: "https://www.amazon.in",
             title: "Coffee mug"
@@ -1245,7 +1245,7 @@ export default {
             price: 7,
             source: "amazon",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["elders", "friends", "kids"],
             produrl: "https://www.amazon.in",
             title: "T-shirt"
@@ -1275,7 +1275,7 @@ export default {
             price: 35,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Healthness Fitband"
@@ -1305,7 +1305,7 @@ export default {
             price: 100,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Samsung Gear smartwatch"
@@ -1315,7 +1315,7 @@ export default {
             price: 5,
             source: "snapdeal",
             rating: "two",
-            category: ["trending"],
+            category: ["trending", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "Mobile Case"
@@ -1346,7 +1346,7 @@ export default {
             price: 35,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "girl kids frock"
@@ -1376,7 +1376,7 @@ export default {
             price: 30,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["women", "friends", "kids"],
             produrl: "https://www.flipkart.com",
             title: "Hair dryer"
@@ -1406,7 +1406,7 @@ export default {
             price: 40,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "helmet"
@@ -1436,7 +1436,7 @@ export default {
             price: 75,
             source: "snapdeal",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "hoody"
@@ -1476,7 +1476,7 @@ export default {
             price: 35,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "kids"],
             produrl: "https://www.flipkart.com",
             title: "Tracking pants for men"
@@ -1506,7 +1506,7 @@ export default {
             price: 100,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.amazon.in",
             title: "long boots"
@@ -1526,7 +1526,7 @@ export default {
             price: 50,
             source: "flipkart",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "friends"],
             produrl: "https://www.flipkart.com",
             title: "Makeup box"
@@ -1546,7 +1546,7 @@ export default {
             price: 100,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "electronics", "lifestyle"],
+            category: ["trending", "electronics", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "Watch"
@@ -1566,7 +1566,7 @@ export default {
             price: 250,
             source: "amazon",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders", "friends"],
             produrl: "https://www.amazon.in",
             title: "Office bag"
@@ -1577,7 +1577,7 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending"],
-            giftFor: ["men", "elders", "friends", "kids"],
+            giftFor: ["men", "elders", "friends", "kids", "homedecor"],
             produrl: "https://www.snapdeal.com",
             title: "parker pen"
           },
@@ -1606,7 +1606,7 @@ export default {
             price: 150,
             source: "snapdeal",
             rating: "four",
-            category: ["trending", "electronics"],
+            category: ["trending", "electronics", "homedecor"],
             giftFor: ["men", "women", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "Power beats pro"
@@ -1646,7 +1646,7 @@ export default {
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["men", "elders"],
             produrl: "https://www.flipkart.com",
             title: "rugsack bag"
@@ -1676,7 +1676,7 @@ export default {
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending", "appliances"],
+            category: ["trending", "appliances", "homedecor"],
             giftFor: ["kids"],
             produrl: "https://www.flipkart.com",
             title: "scooter"
@@ -1696,7 +1696,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "socks girls"
@@ -1706,7 +1706,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders"],
             produrl: "https://www.snapdeal.com",
             title: "socks men"
@@ -1756,7 +1756,7 @@ export default {
             price: 20,
             source: "amazon",
             rating: "four",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "kids", "men"],
             produrl: "https://www.amazon.in",
             title: "sun shades"
@@ -1796,7 +1796,7 @@ export default {
             price: 620,
             source: "flipkart",
             rating: "four",
-            category: ["appliances", "lifestyle"],
+            category: ["appliances", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "men"],
             produrl: "https://www.flipkart.com",
             title: "vip tolley suitcase"
@@ -1836,7 +1836,7 @@ export default {
             price: 20,
             source: "amazon",
             rating: "three",
-            category: ["trending", "appliances"],
+            category: ["trending", "appliances", "homedecor"],
             giftFor: ["women", "elders", "men"],
             produrl: "https://www.amazon.in",
             title: "wallet men"
@@ -1856,7 +1856,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle", "appliances"],
+            category: ["trending", "lifestyle", "appliances", "homedecor"],
             giftFor: ["women", "elders", "kids"],
             produrl: "https://www.snapdeal.com",
             title: "watch for kids"
@@ -1886,7 +1886,7 @@ export default {
             price: 20,
             source: "snapdeal",
             rating: "three",
-            category: ["trending", "lifestyle"],
+            category: ["trending", "lifestyle", "homedecor"],
             giftFor: ["women", "elders", "friends"],
             produrl: "https://www.snapdeal.com",
             title: "womens blazer"
