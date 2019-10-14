@@ -93,17 +93,11 @@ class Header extends Component {
                     aria-label="suggestions"
                     onKeyDown={this.onSuggestionSelect}
                   >
-                    <ul
-                      className="suggestionList"
-                      id="results"
-                      role="listbox"
-                      tabIndex="-1"
-                    >
+                    <ul className="suggestionList" id="results" role="listbox">
                       {this.state.suggestions
                         ? this.state.suggestions.map((text, index) => (
                             <li
                               className="suggestion"
-                              tabIndex="0"
                               key={index}
                               role="option"
                               aria-label={text}
