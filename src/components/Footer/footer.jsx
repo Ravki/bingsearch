@@ -7,18 +7,40 @@ const Footer = () => {
         <nav className="nav-bar" role="navigation" aria-label="footer links">
           <ul>
             <li>
-              <a href="#" target="_blank">
+              <a
+                href="https://privacy.microsoft.com/en-gb/privacystatement"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Privacy and Cookies
               </a>
             </li>
             <li>
-              <a href="#">Legal</a>
+              <a
+                href="https://www.microsoft.com/en-gb/servicesagreement/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Legal
+              </a>
             </li>
             <li>
-              <a href="#">Advertise</a>
+              <a
+                href="https://about.ads.microsoft.com/en-gb/h/a/microsoft-advertising?s_cid=GB-Acq-DIG-src_Foot-sub_serp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Advertise
+              </a>
             </li>
             <li>
-              <a href="#">Help</a>
+              <a
+                href="https://help.bing.microsoft.com/#apex/18/en-gb/n1999/-1/en-gb"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Help
+              </a>
             </li>
             <li>
               <a href="#">Feedback</a>
@@ -26,7 +48,7 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="copyright">
-          <span>Copyright © 2016 Microsoft</span>
+          <span>Copyright &#169; {new Date().getFullYear()} Microsoft</span>
         </div>
       </div>
     </footer>

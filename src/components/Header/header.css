@@ -102,7 +102,7 @@
   text-indent: -1000px;
 }
 .suggestionWindow {
-  min-height: 250px;
+  min-height: 50px;
   position: absolute;
   top: 42px;
   width: 650px;

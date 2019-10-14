@@ -8,7 +8,13 @@ const ResultBlock = (props) => {
           ? props.results.map((item, index) => (
               <li key={index}>
                 <h2>
-                  <a className="title" href={item.url} target="_blank">
+                  <a
+                    className="title"
+                    href={item.url}
+                    target="_blank"
+                    title={item.title}
+                    rel="noopener noreferrer"
+                  >
                     {item.title}
                   </a>
                 </h2>

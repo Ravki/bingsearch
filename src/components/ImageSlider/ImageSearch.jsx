@@ -85,7 +85,11 @@ class ImageSearch extends Component {
     return (
       <div className="imageSearch">
         <div className="heading">
-          <a href={this.formImageUrl(this.props.search)} target="_blank">
+          <a
+            href={this.formImageUrl(this.props.search)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Images of {this.props.search}
           </a>
         </div>

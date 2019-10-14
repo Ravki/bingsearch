@@ -42,7 +42,11 @@ class ImageSlider extends Component {
                       </div>
                       <div>
                         <div className="source">
-                          <a href={item.produrl} target="_blank">
+                          <a
+                            href={item.produrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             {item.source}
                           </a>
                         </div>
@@ -69,7 +73,11 @@ class ImageSlider extends Component {
                       </div>
                       <div>
                         <div className="source">
-                          <a href={item.produrl} target="_blank">
+                          <a
+                            href={item.produrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             {item.source}
                           </a>
                         </div>
