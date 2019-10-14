@@ -20,15 +20,14 @@ class Header extends Component {
   };
   populateSuggestions = () => {
     let search = this.state.searchString.toLowerCase();
-    let relevant;
-    if (search) {
-      relevant = data["suggestions"].filter((item) => {
-        return item.includes(search);
-      });
-    }
-    if (relevant && relevant.length) {
-      this.setState({ showSuggestions: true, suggestions: relevant });
-    }
+    let relevant = [];
+    relevant = data["suggestions"].filter((item) => {
+      return item.includes(search);
+    });
+    this.setState({
+      showSuggestions: relevant.length > 0,
+      suggestions: relevant
+    });
   };
   onSuggestionClicked = (e) => {
     e.preventDefault();
