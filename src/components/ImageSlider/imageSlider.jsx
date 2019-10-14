@@ -37,6 +37,7 @@ class ImageSlider extends Component {
                     ></div>
                     <div className="details">
                       <div>
+                        <div className="name">{item.title}</div>
                         <div className="price">{"$" + item.price}</div>
                       </div>
                       <div>
@@ -63,6 +64,7 @@ class ImageSlider extends Component {
                     ></div>
                     <div className="details">
                       <div>
+                        <div className="name">{item.title}</div>
                         <div className="price">{"$" + item.price}</div>
                       </div>
                       <div>

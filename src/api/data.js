@@ -114,7 +114,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Apple Watch"
           },
           {
             url: require("../assets/images/christmas/men/backpack.jpeg"),
@@ -123,7 +124,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Backpack bag"
           },
           {
             url: require("../assets/images/christmas/men/bellies.jpeg"),
@@ -132,7 +134,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Shoe bellies"
           },
           {
             url: require("../assets/images/christmas/men/blazer.jpeg"),
@@ -141,7 +144,8 @@ export default {
             rating: "three",
             category: ["lifestyle", "homedecor"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Mens blazer"
           },
           {
             url: require("../assets/images/christmas/men/bodywash.jpeg"),
@@ -150,7 +154,8 @@ export default {
             rating: "five",
             category: ["lifestyle"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Body wash"
           },
           {
             url: require("../assets/images/christmas/men/boysdress.jpeg"),
@@ -159,7 +164,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Ethnic wear"
           },
           {
             url: require("../assets/images/christmas/men/cigarcase.jpeg"),
@@ -168,7 +174,8 @@ export default {
             rating: "four",
             category: ["trending", "homedecor"],
             giftFor: ["men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Cigar case"
           },
           {
             url: require("../assets/images/christmas/men/cleanser.jpeg"),
@@ -177,7 +184,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Face cleanser"
           },
           {
             url: require("../assets/images/christmas/men/coffeemug.jpeg"),
@@ -186,7 +194,8 @@ export default {
             rating: "five",
             category: ["homedecor"],
             giftFor: ["men", "women", "friends", "kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Coffee mug"
           },
           {
             url: require("../assets/images/christmas/men/comics.jpeg"),
@@ -195,7 +204,8 @@ export default {
             rating: "five",
             category: ["trending", "homedecor"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Kids Marvel Comics"
           },
           {
             url: require("../assets/images/christmas/men/cycle.jpeg"),
@@ -204,7 +214,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Bicycle"
           },
           {
             url: require("../assets/images/christmas/men/dufflebag.jpeg"),
@@ -213,7 +224,8 @@ export default {
             rating: "three",
             category: ["trending", "homedecor"],
             giftFor: ["men", "friends", "kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Duffle bag"
           },
           {
             url: require("../assets/images/christmas/men/girlfrock.jpeg"),
@@ -222,7 +234,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Girls frock"
           },
           {
             url: require("../assets/images/christmas/men/eldercup.jpeg"),
@@ -231,7 +244,8 @@ export default {
             rating: "five",
             category: ["trending", "lifestyle"],
             giftFor: ["elders"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Coffee mug"
           },
           {
             url: require("../assets/images/christmas/men/eldershirt.jpeg"),
@@ -249,7 +263,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["elders", "friends", "kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "T-shirt"
           },
           {
             url: require("../assets/images/christmas/men/eyeliner.jpeg"),
@@ -258,7 +273,8 @@ export default {
             rating: "three",
             category: ["lifestyle"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Eye liner"
           },
           {
             url: require("../assets/images/christmas/men/fancytop.jpeg"),
@@ -267,7 +283,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "fancy top"
           },
           {
             url: require("../assets/images/christmas/men/fitband.jpeg"),
@@ -276,7 +293,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Healthness Fitband"
           },
           {
             url: require("../assets/images/christmas/men/galaxynote.jpeg"),
@@ -285,7 +303,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Samsung Galaxy Note"
           },
           {
             url: require("../assets/images/christmas/men/galaxys10.jpeg"),
@@ -294,7 +313,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Samsung Galaxy S10"
           },
           {
             url: require("../assets/images/christmas/men/gearsmartwatch.jpeg"),
@@ -303,7 +323,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Samsung Gear smartwatch"
           },
           {
             url: require("../assets/images/christmas/men/girlcase.jpeg"),
@@ -312,7 +333,8 @@ export default {
             rating: "two",
             category: ["trending"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Mobile Case"
           },
           {
             url: require("../assets/images/christmas/men/girlcasemobile.jpeg"),
@@ -321,7 +343,8 @@ export default {
             rating: "three",
             category: ["trending"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "mobile case - girls"
           },
           {
             url: require("../assets/images/christmas/men/echodot.jpeg"),
@@ -330,7 +353,8 @@ export default {
             rating: "five",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Amazon echo dot"
           },
 
           {
@@ -340,7 +364,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "girl kids frock"
           },
           {
             url: require("../assets/images/christmas/men/googlevr.jpeg"),
@@ -349,7 +374,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "kids", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Google VR headset"
           },
           {
             url: require("../assets/images/christmas/men/groomingkit.jpeg"),
@@ -358,7 +384,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Mens grooming kit"
           },
           {
             url: require("../assets/images/christmas/men/hairdryer.jpeg"),
@@ -367,7 +394,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Hair dryer"
           },
           {
             url: require("../assets/images/christmas/men/handbag.jpeg"),
@@ -376,7 +404,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Womens handbag"
           },
           {
             url: require("../assets/images/christmas/men/headphones.jpeg"),
@@ -385,7 +414,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends", "kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "headphones"
           },
           {
             url: require("../assets/images/christmas/men/helmet.jpeg"),
@@ -394,7 +424,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "helmet"
           },
           {
             url: require("../assets/images/christmas/men/helmetwomen.jpeg"),
@@ -403,7 +434,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "helmet - women"
           },
           {
             url: require("../assets/images/christmas/men/highheels.jpeg"),
@@ -412,7 +444,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "footwear"
           },
           {
             url: require("../assets/images/christmas/men/hoody.jpeg"),
@@ -421,7 +454,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "hoody"
           },
           {
             url: require("../assets/images/christmas/men/hotpack.jpeg"),
@@ -430,7 +464,8 @@ export default {
             rating: "two",
             category: ["trending", "appliances"],
             giftFor: ["men", "women", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "hotpack"
           },
           {
             url: require("../assets/images/christmas/men/iphone11pro.jpeg"),
@@ -439,7 +474,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Apple iPhone 11 Pro"
           },
           {
             url: require("../assets/images/christmas/men/iphonecase.jpeg"),
@@ -448,7 +484,8 @@ export default {
             rating: "one",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "iPhone Case"
           },
           {
             url: require("../assets/images/christmas/men/jogtrack.jpeg"),
@@ -457,7 +494,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Tracking pants for men"
           },
           {
             url: require("../assets/images/christmas/men/kidsshoes.jpeg"),
@@ -466,7 +504,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Shoes - kids"
           },
           {
             url: require("../assets/images/christmas/men/lipbalm.jpeg"),
@@ -475,7 +514,8 @@ export default {
             rating: "three",
             category: ["lifestyle"],
             giftFor: ["men", "women", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "lip balm"
           },
           {
             url: require("../assets/images/christmas/men/longboots.jpeg"),
@@ -484,7 +524,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "long boots"
           },
           {
             url: require("../assets/images/christmas/men/longcoat.jpeg"),
@@ -493,7 +534,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "long waist coat"
           },
           {
             url: require("../assets/images/christmas/men/makeupkit.jpeg"),
@@ -502,7 +544,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Makeup box"
           },
           {
             url: require("../assets/images/christmas/men/marveluniverse.jpeg"),
@@ -511,7 +554,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "marvel universe"
           },
           {
             url: require("../assets/images/christmas/men/menwatch.jpeg"),
@@ -520,7 +564,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Watch"
           },
           {
             url: require("../assets/images/christmas/men/nintendojuniors.jpeg"),
@@ -529,7 +574,8 @@ export default {
             rating: "two",
             category: ["trending", "electronics"],
             giftFor: ["kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "nintendo"
           },
           {
             url: require("../assets/images/christmas/men/officebag.jpeg"),
@@ -538,7 +584,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Office bag"
           },
           {
             url: require("../assets/images/christmas/men/parkerpen.jpeg"),
@@ -547,7 +594,8 @@ export default {
             rating: "four",
             category: ["trending"],
             giftFor: ["men", "elders", "friends", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "parker pen"
           },
           {
             url: require("../assets/images/christmas/men/pendant.jpeg"),
@@ -556,7 +604,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "women pendant"
           },
           {
             url: require("../assets/images/christmas/men/pixel3.png"),
@@ -565,7 +614,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "google pixel 3"
           },
           {
             url: require("../assets/images/christmas/men/powerbeatspro.jpeg"),
@@ -574,7 +624,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Power beats pro"
           },
           {
             url: require("../assets/images/christmas/men/ps4.jpeg"),
@@ -583,7 +634,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Sony Play station 4"
           },
           {
             url: require("../assets/images/christmas/men/ps4joystick.jpeg"),
@@ -592,7 +644,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "kids", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "PS4 joystick"
           },
           {
             url: require("../assets/images/christmas/men/purse.jpeg"),
@@ -601,7 +654,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "wallet"
           },
           {
             url: require("../assets/images/christmas/men/rugsack.jpeg"),
@@ -610,7 +664,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "rugsack bag"
           },
           {
             url: require("../assets/images/christmas/men/schoolbag.jpeg"),
@@ -619,25 +674,28 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "school bag"
           },
           {
             url: require("../assets/images/christmas/men/schoolbaggirls.jpeg"),
             price: 40,
             source: "snapdeal",
             rating: "four",
-            category: ["trending"],
-            giftFor: ["kids"],
-            produrl: "https://www.snapdeal.com"
+            category: ["trending", "lifestyle"],
+            giftFor: ["kids", "women"],
+            produrl: "https://www.snapdeal.com",
+            title: "schoolbag girls"
           },
           {
             url: require("../assets/images/christmas/men/scooter.jpeg"),
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending"],
+            category: ["trending", "appliances"],
             giftFor: ["kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "scooter"
           },
           {
             url: require("../assets/images/christmas/men/smartwatchwomen.jpeg"),
@@ -646,7 +704,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "smartwatch women"
           },
           {
             url: require("../assets/images/christmas/men/socksgirls.jpeg"),
@@ -655,7 +714,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "socks girls"
           },
           {
             url: require("../assets/images/christmas/men/socksmen.jpeg"),
@@ -664,7 +724,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "socks men"
           },
           {
             url: require("../assets/images/christmas/men/spiderman.jpeg"),
@@ -673,7 +734,8 @@ export default {
             rating: "two",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "kids", "appliances"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "spiderman costume"
           },
           {
             url: require("../assets/images/christmas/men/sportscycle.jpeg"),
@@ -682,7 +744,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "sports cycle"
           },
           {
             url: require("../assets/images/christmas/men/sportshoes.jpeg"),
@@ -691,7 +754,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "sports shoes"
           },
           {
             url: require("../assets/images/christmas/men/stopclock.jpeg"),
@@ -700,7 +764,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "stop clock"
           },
           {
             url: require("../assets/images/christmas/men/sunshades.jpeg"),
@@ -709,7 +774,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "kids", "men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "sun shades"
           },
           {
             url: require("../assets/images/christmas/men/teeshirt.jpeg"),
@@ -718,7 +784,8 @@ export default {
             rating: "five",
             category: ["appliances", "lifestyle"],
             giftFor: ["kids", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "tee shirt"
           },
           {
             url: require("../assets/images/christmas/men/thorjunior.jpeg"),
@@ -727,7 +794,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["kids", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "thor junior"
           },
           {
             url: require("../assets/images/christmas/men/trimmer.jpeg"),
@@ -736,7 +804,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "mens trimmer"
           },
           {
             url: require("../assets/images/christmas/men/viptrolley.jpeg"),
@@ -745,7 +814,8 @@ export default {
             rating: "four",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "vip tolley suitcase"
           },
           {
             url: require("../assets/images/christmas/men/walker.jpeg"),
@@ -754,7 +824,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "walker"
           },
           {
             url: require("../assets/images/christmas/men/walkingshoesold.jpeg"),
@@ -763,7 +834,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "walker"
           },
           {
             url: require("../assets/images/christmas/men/walkingstick.jpeg"),
@@ -772,7 +844,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["women", "elders", "men", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "walking stick"
           },
           {
             url: require("../assets/images/christmas/men/wallet.jpeg"),
@@ -781,7 +854,8 @@ export default {
             rating: "three",
             category: ["trending", "appliances"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "wallet men"
           },
           {
             url: require("../assets/images/christmas/men/watch.jpeg"),
@@ -790,7 +864,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch"
           },
           {
             url: require("../assets/images/christmas/men/watchkids.jpeg"),
@@ -799,7 +874,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch for kids"
           },
           {
             url: require("../assets/images/christmas/men/watchkidsboys.jpeg"),
@@ -808,7 +884,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "kids", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch for boys"
           },
           {
             url: require("../assets/images/christmas/men/watchset.jpeg"),
@@ -817,7 +894,8 @@ export default {
             rating: "five",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "watch set"
           },
           {
             url: require("../assets/images/christmas/men/womenblazer.jpeg"),
@@ -826,7 +904,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "womens blazer"
           },
           {
             url: require("../assets/images/christmas/men/womengrooming.jpeg"),
@@ -835,7 +914,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "womens grooming kit"
           }
         ],
         searchFilter: [
@@ -1018,7 +1098,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Apple Watch"
           },
           {
             url: require("../assets/images/christmas/men/backpack.jpeg"),
@@ -1027,7 +1108,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Backpack bag"
           },
           {
             url: require("../assets/images/christmas/men/bellies.jpeg"),
@@ -1036,7 +1118,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Shoe bellies"
           },
           {
             url: require("../assets/images/christmas/men/blazer.jpeg"),
@@ -1045,7 +1128,8 @@ export default {
             rating: "three",
             category: ["lifestyle", "homedecor"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Mens blazer"
           },
           {
             url: require("../assets/images/christmas/men/bodywash.jpeg"),
@@ -1054,7 +1138,8 @@ export default {
             rating: "five",
             category: ["lifestyle"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Body wash"
           },
           {
             url: require("../assets/images/christmas/men/boysdress.jpeg"),
@@ -1063,7 +1148,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Ethnic wear"
           },
           {
             url: require("../assets/images/christmas/men/cigarcase.jpeg"),
@@ -1072,7 +1158,8 @@ export default {
             rating: "four",
             category: ["trending", "homedecor"],
             giftFor: ["men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Cigar case"
           },
           {
             url: require("../assets/images/christmas/men/cleanser.jpeg"),
@@ -1081,7 +1168,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Face cleanser"
           },
           {
             url: require("../assets/images/christmas/men/coffeemug.jpeg"),
@@ -1089,8 +1177,9 @@ export default {
             source: "amazon",
             rating: "five",
             category: ["homedecor"],
-            giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            giftFor: ["men", "women", "friends", "kids"],
+            produrl: "https://www.amazon.in",
+            title: "Coffee mug"
           },
           {
             url: require("../assets/images/christmas/men/comics.jpeg"),
@@ -1099,7 +1188,8 @@ export default {
             rating: "five",
             category: ["trending", "homedecor"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Kids Marvel Comics"
           },
           {
             url: require("../assets/images/christmas/men/cycle.jpeg"),
@@ -1108,7 +1198,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Bicycle"
           },
           {
             url: require("../assets/images/christmas/men/dufflebag.jpeg"),
@@ -1116,8 +1207,9 @@ export default {
             source: "amazon",
             rating: "three",
             category: ["trending", "homedecor"],
-            giftFor: ["men", "friends"],
-            produrl: "https://www.amazon.in"
+            giftFor: ["men", "friends", "kids"],
+            produrl: "https://www.amazon.in",
+            title: "Duffle bag"
           },
           {
             url: require("../assets/images/christmas/men/girlfrock.jpeg"),
@@ -1125,8 +1217,9 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "friends"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "Girls frock"
           },
           {
             url: require("../assets/images/christmas/men/eldercup.jpeg"),
@@ -1135,7 +1228,8 @@ export default {
             rating: "five",
             category: ["trending", "lifestyle"],
             giftFor: ["elders"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Coffee mug"
           },
           {
             url: require("../assets/images/christmas/men/eldershirt.jpeg"),
@@ -1143,7 +1237,7 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["lifestyle"],
-            giftFor: ["elders", "friends"],
+            giftFor: ["elders", "friends", "kids"],
             produrl: "https://www.snapdeal.com"
           },
           {
@@ -1152,8 +1246,9 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["elders", "friends"],
-            produrl: "https://www.amazon.in"
+            giftFor: ["elders", "friends", "kids"],
+            produrl: "https://www.amazon.in",
+            title: "T-shirt"
           },
           {
             url: require("../assets/images/christmas/men/eyeliner.jpeg"),
@@ -1162,7 +1257,8 @@ export default {
             rating: "three",
             category: ["lifestyle"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Eye liner"
           },
           {
             url: require("../assets/images/christmas/men/fancytop.jpeg"),
@@ -1170,8 +1266,9 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: [, "women", "friends"],
-            produrl: "https://www.amazon.in"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.amazon.in",
+            title: "fancy top"
           },
           {
             url: require("../assets/images/christmas/men/fitband.jpeg"),
@@ -1180,7 +1277,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Healthness Fitband"
           },
           {
             url: require("../assets/images/christmas/men/galaxynote.jpeg"),
@@ -1189,7 +1287,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Samsung Galaxy Note"
           },
           {
             url: require("../assets/images/christmas/men/galaxys10.jpeg"),
@@ -1198,7 +1297,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Samsung Galaxy S10"
           },
           {
             url: require("../assets/images/christmas/men/gearsmartwatch.jpeg"),
@@ -1207,7 +1307,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Samsung Gear smartwatch"
           },
           {
             url: require("../assets/images/christmas/men/girlcase.jpeg"),
@@ -1215,8 +1316,9 @@ export default {
             source: "snapdeal",
             rating: "two",
             category: ["trending"],
-            giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "Mobile Case"
           },
           {
             url: require("../assets/images/christmas/men/girlcasemobile.jpeg"),
@@ -1224,8 +1326,9 @@ export default {
             source: "flipkart",
             rating: "three",
             category: ["trending"],
-            giftFor: ["women", "friends"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "mobile case - girls"
           },
           {
             url: require("../assets/images/christmas/men/echodot.jpeg"),
@@ -1233,8 +1336,9 @@ export default {
             source: "flipkart",
             rating: "five",
             category: ["trending", "electronics"],
-            giftFor: ["men", "women", "friends"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["men", "women", "friends", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "Amazon echo dot"
           },
 
           {
@@ -1243,8 +1347,9 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "girl kids frock"
           },
           {
             url: require("../assets/images/christmas/men/googlevr.jpeg"),
@@ -1253,7 +1358,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "kids", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Google VR headset"
           },
           {
             url: require("../assets/images/christmas/men/groomingkit.jpeg"),
@@ -1262,7 +1368,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Mens grooming kit"
           },
           {
             url: require("../assets/images/christmas/men/hairdryer.jpeg"),
@@ -1270,8 +1377,9 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "electronics"],
-            giftFor: ["women", "friends"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["women", "friends", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "Hair dryer"
           },
           {
             url: require("../assets/images/christmas/men/handbag.jpeg"),
@@ -1280,7 +1388,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Womens handbag"
           },
           {
             url: require("../assets/images/christmas/men/headphones.jpeg"),
@@ -1288,8 +1397,9 @@ export default {
             source: "amazon",
             rating: "four",
             category: ["trending", "electronics"],
-            giftFor: ["men", "women", "friends"],
-            produrl: "https://www.amazon.in"
+            giftFor: ["men", "women", "friends", "kids"],
+            produrl: "https://www.amazon.in",
+            title: "headphones"
           },
           {
             url: require("../assets/images/christmas/men/helmet.jpeg"),
@@ -1298,7 +1408,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "helmet"
           },
           {
             url: require("../assets/images/christmas/men/helmetwomen.jpeg"),
@@ -1307,7 +1418,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "helmet - women"
           },
           {
             url: require("../assets/images/christmas/men/highheels.jpeg"),
@@ -1316,7 +1428,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "footwear"
           },
           {
             url: require("../assets/images/christmas/men/hoody.jpeg"),
@@ -1324,8 +1437,9 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            giftFor: ["men", "elders", "friends", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "hoody"
           },
           {
             url: require("../assets/images/christmas/men/hotpack.jpeg"),
@@ -1334,7 +1448,8 @@ export default {
             rating: "two",
             category: ["trending", "appliances"],
             giftFor: ["men", "women", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "hotpack"
           },
           {
             url: require("../assets/images/christmas/men/iphone11pro.jpeg"),
@@ -1343,7 +1458,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Apple iPhone 11 Pro"
           },
           {
             url: require("../assets/images/christmas/men/iphonecase.jpeg"),
@@ -1352,7 +1468,8 @@ export default {
             rating: "one",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "iPhone Case"
           },
           {
             url: require("../assets/images/christmas/men/jogtrack.jpeg"),
@@ -1360,8 +1477,9 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["men", "elders", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "Tracking pants for men"
           },
           {
             url: require("../assets/images/christmas/men/kidsshoes.jpeg"),
@@ -1369,8 +1487,9 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            giftFor: ["men", "elders", "friends", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "Shoes - kids"
           },
           {
             url: require("../assets/images/christmas/men/lipbalm.jpeg"),
@@ -1379,7 +1498,8 @@ export default {
             rating: "three",
             category: ["lifestyle"],
             giftFor: ["men", "women", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "lip balm"
           },
           {
             url: require("../assets/images/christmas/men/longboots.jpeg"),
@@ -1388,7 +1508,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "long boots"
           },
           {
             url: require("../assets/images/christmas/men/longcoat.jpeg"),
@@ -1397,7 +1518,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "long waist coat"
           },
           {
             url: require("../assets/images/christmas/men/makeupkit.jpeg"),
@@ -1406,7 +1528,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Makeup box"
           },
           {
             url: require("../assets/images/christmas/men/marveluniverse.jpeg"),
@@ -1415,7 +1538,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["kids", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "marvel universe"
           },
           {
             url: require("../assets/images/christmas/men/menwatch.jpeg"),
@@ -1424,7 +1548,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Watch"
           },
           {
             url: require("../assets/images/christmas/men/nintendojuniors.jpeg"),
@@ -1433,7 +1558,8 @@ export default {
             rating: "two",
             category: ["trending", "electronics"],
             giftFor: ["kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "nintendo"
           },
           {
             url: require("../assets/images/christmas/men/officebag.jpeg"),
@@ -1442,7 +1568,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "Office bag"
           },
           {
             url: require("../assets/images/christmas/men/parkerpen.jpeg"),
@@ -1450,8 +1577,9 @@ export default {
             source: "snapdeal",
             rating: "four",
             category: ["trending"],
-            giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            giftFor: ["men", "elders", "friends", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "parker pen"
           },
           {
             url: require("../assets/images/christmas/men/pendant.jpeg"),
@@ -1459,8 +1587,9 @@ export default {
             source: "flipkart",
             rating: "four",
             category: ["trending", "lifestyle"],
-            giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            giftFor: ["women", "elders", "friends", "kids"],
+            produrl: "https://www.flipkart.com",
+            title: "women pendant"
           },
           {
             url: require("../assets/images/christmas/men/pixel3.png"),
@@ -1469,7 +1598,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "google pixel 3"
           },
           {
             url: require("../assets/images/christmas/men/powerbeatspro.jpeg"),
@@ -1478,7 +1608,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "Power beats pro"
           },
           {
             url: require("../assets/images/christmas/men/ps4.jpeg"),
@@ -1487,7 +1618,8 @@ export default {
             rating: "four",
             category: ["trending", "electronics"],
             giftFor: ["men", "kids", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "Sony Play station 4"
           },
           {
             url: require("../assets/images/christmas/men/ps4joystick.jpeg"),
@@ -1496,7 +1628,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["men", "kids", "elders", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "PS4 joystick"
           },
           {
             url: require("../assets/images/christmas/men/purse.jpeg"),
@@ -1505,7 +1638,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "wallet"
           },
           {
             url: require("../assets/images/christmas/men/rugsack.jpeg"),
@@ -1514,7 +1648,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "rugsack bag"
           },
           {
             url: require("../assets/images/christmas/men/schoolbag.jpeg"),
@@ -1523,25 +1658,28 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["kids"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "school bag"
           },
           {
             url: require("../assets/images/christmas/men/schoolbaggirls.jpeg"),
             price: 40,
             source: "snapdeal",
             rating: "four",
-            category: ["trending"],
-            giftFor: ["kids"],
-            produrl: "https://www.snapdeal.com"
+            category: ["trending", "lifestyle"],
+            giftFor: ["kids", "women"],
+            produrl: "https://www.snapdeal.com",
+            title: "schoolbag girls"
           },
           {
             url: require("../assets/images/christmas/men/scooter.jpeg"),
             price: 250,
             source: "flipkart",
             rating: "four",
-            category: ["trending"],
+            category: ["trending", "appliances"],
             giftFor: ["kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "scooter"
           },
           {
             url: require("../assets/images/christmas/men/smartwatchwomen.jpeg"),
@@ -1550,7 +1688,8 @@ export default {
             rating: "three",
             category: ["trending", "electronics"],
             giftFor: ["women", "friends"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "smartwatch women"
           },
           {
             url: require("../assets/images/christmas/men/socksgirls.jpeg"),
@@ -1558,8 +1697,19 @@ export default {
             source: "snapdeal",
             rating: "three",
             category: ["trending", "lifestyle"],
+            giftFor: ["women", "elders", "kids"],
+            produrl: "https://www.snapdeal.com",
+            title: "socks girls"
+          },
+          {
+            url: require("../assets/images/christmas/men/socksmen.jpeg"),
+            price: 20,
+            source: "snapdeal",
+            rating: "three",
+            category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "socks men"
           },
           {
             url: require("../assets/images/christmas/men/spiderman.jpeg"),
@@ -1568,7 +1718,8 @@ export default {
             rating: "two",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "kids", "appliances"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "spiderman costume"
           },
           {
             url: require("../assets/images/christmas/men/sportscycle.jpeg"),
@@ -1577,7 +1728,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "sports cycle"
           },
           {
             url: require("../assets/images/christmas/men/sportshoes.jpeg"),
@@ -1586,7 +1738,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "sports shoes"
           },
           {
             url: require("../assets/images/christmas/men/stopclock.jpeg"),
@@ -1595,7 +1748,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "stop clock"
           },
           {
             url: require("../assets/images/christmas/men/sunshades.jpeg"),
@@ -1604,7 +1758,8 @@ export default {
             rating: "four",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "kids", "men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "sun shades"
           },
           {
             url: require("../assets/images/christmas/men/teeshirt.jpeg"),
@@ -1613,7 +1768,8 @@ export default {
             rating: "five",
             category: ["appliances", "lifestyle"],
             giftFor: ["kids", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "tee shirt"
           },
           {
             url: require("../assets/images/christmas/men/thorjunior.jpeg"),
@@ -1622,7 +1778,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["kids", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "thor junior"
           },
           {
             url: require("../assets/images/christmas/men/trimmer.jpeg"),
@@ -1631,7 +1788,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["men", "elders"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "mens trimmer"
           },
           {
             url: require("../assets/images/christmas/men/viptrolley.jpeg"),
@@ -1640,7 +1798,8 @@ export default {
             rating: "four",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "vip tolley suitcase"
           },
           {
             url: require("../assets/images/christmas/men/walker.jpeg"),
@@ -1649,7 +1808,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "walker"
           },
           {
             url: require("../assets/images/christmas/men/walkingshoesold.jpeg"),
@@ -1658,7 +1818,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "walker"
           },
           {
             url: require("../assets/images/christmas/men/walkingstick.jpeg"),
@@ -1667,7 +1828,8 @@ export default {
             rating: "four",
             category: ["trending", "appliances"],
             giftFor: ["women", "elders", "men", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "walking stick"
           },
           {
             url: require("../assets/images/christmas/men/wallet.jpeg"),
@@ -1676,7 +1838,8 @@ export default {
             rating: "three",
             category: ["trending", "appliances"],
             giftFor: ["women", "elders", "men"],
-            produrl: "https://www.amazon.in"
+            produrl: "https://www.amazon.in",
+            title: "wallet men"
           },
           {
             url: require("../assets/images/christmas/men/watch.jpeg"),
@@ -1685,7 +1848,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch"
           },
           {
             url: require("../assets/images/christmas/men/watchkids.jpeg"),
@@ -1694,7 +1858,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch for kids"
           },
           {
             url: require("../assets/images/christmas/men/watchkidsboys.jpeg"),
@@ -1703,7 +1868,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "kids", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "watch for boys"
           },
           {
             url: require("../assets/images/christmas/men/watchset.jpeg"),
@@ -1712,7 +1878,8 @@ export default {
             rating: "five",
             category: ["trending", "lifestyle", "appliances"],
             giftFor: ["women", "elders", "kids"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "watch set"
           },
           {
             url: require("../assets/images/christmas/men/womenblazer.jpeg"),
@@ -1721,7 +1888,8 @@ export default {
             rating: "three",
             category: ["trending", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.snapdeal.com"
+            produrl: "https://www.snapdeal.com",
+            title: "womens blazer"
           },
           {
             url: require("../assets/images/christmas/men/womengrooming.jpeg"),
@@ -1730,7 +1898,8 @@ export default {
             rating: "three",
             category: ["appliances", "lifestyle"],
             giftFor: ["women", "elders", "friends"],
-            produrl: "https://www.flipkart.com"
+            produrl: "https://www.flipkart.com",
+            title: "womens grooming kit"
           }
         ],
         searchFilter: [
