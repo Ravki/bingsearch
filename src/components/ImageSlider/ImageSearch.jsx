@@ -89,6 +89,7 @@ class ImageSearch extends Component {
             href={this.formImageUrl(this.props.search)}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={"Click here for images of " + this.props.search}
           >
             Images of {this.props.search}
           </a>

@@ -10,6 +10,42 @@ class Header extends Component {
   componentDidMount = () => {
     document.addEventListener("click", this.handleClickOutside);
   };
+  setKeyEventsForSuggestions = () => {
+    this.navItems = document.querySelectorAll("#results > li");
+    var keys = {
+      tab: 9,
+      enter: 13,
+      esc: 27,
+      space: 32,
+      left: 37,
+      up: 38,
+      right: 39,
+      down: 40
+    };
+    Array.from(this.navItems).forEach((ele, index) => {
+      let index1 = index;
+      ele.addEventListener("keydown", (e) => {
+        if (e.keyCode == keys.down) {
+          this.focusEle(index1 + 1);
+        }
+        if (e.keyCode == keys.up) {
+          if (index1 === 0) {
+            this.focusEle(this.navItems.length - 1);
+          } else {
+            this.focusEle(index1 - 1);
+          }
+        }
+        if (e.keyCode === keys.esc) {
+          this.setState({ showSuggestions: false }, () => {
+            this.search.focus();
+          });
+        }
+      });
+    });
+  };
+  focusEle = (idx) => {
+    this.navItems[idx % this.navItems.length].focus();
+  };
   handleClickOutside = () => {
     this.setState({ showSuggestions: false });
   };
@@ -24,10 +60,17 @@ class Header extends Component {
     relevant = data["suggestions"].filter((item) => {
       return item.includes(search);
     });
-    this.setState({
-      showSuggestions: relevant.length > 0,
-      suggestions: relevant
-    });
+    this.setState(
+      {
+        showSuggestions: relevant.length > 0,
+        suggestions: relevant
+      },
+      () => {
+        if (this.state.suggestions.length > 0) {
+          this.setKeyEventsForSuggestions();
+        }
+      }
+    );
   };
   onSuggestionClicked = (e) => {
     e.preventDefault();
@@ -98,6 +141,7 @@ class Header extends Component {
                             <li
                               className="suggestion"
                               key={index}
+                              tabIndex={index === 0 ? "0" : "-1"}
                               role="option"
                               aria-label={text}
                             >
@@ -138,12 +182,8 @@ class Header extends Component {
           }
         >
           <div className="header-column">
-            <nav
-              className="nav-bar"
-              role="navigation"
-              aria-label="main naigation"
-            >
-              <ul>
+            <nav className="nav-bar" aria-label="main naigation">
+              <ul aria-label="Select tab to view the corresponding view.">
                 <li className="selected">
                   <a href="#">All</a>
                 </li>
